@@ -12,6 +12,7 @@ import jakarta.persistence.ManyToMany;
 import lombok.Data;
 import lombok.EqualsAndHashCode;
 import lombok.ToString;
+import pet.store.controller.model.PetStoreData.PetStoreCustomer;
 
 @Entity
 @Data
@@ -25,8 +26,13 @@ public class Customer {
 	private String customerLastName;
 	private String customerEmail;
 	
+	
+	
 	@EqualsAndHashCode.Exclude
 	@ToString.Exclude
 	@ManyToMany(mappedBy = "customers", cascade = CascadeType.PERSIST)
 	private Set<PetStore> petStores = new HashSet<>();
+
+
+	
 }
