@@ -63,7 +63,6 @@ public class GlobalErrorHandler {
 		excMsg.setTimestamp(timestamp);
 		excMsg.setUri(uri);
 		
-		
 		return excMsg;
 	}
 	

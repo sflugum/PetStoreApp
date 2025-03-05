@@ -26,8 +26,6 @@ public class Customer {
 	private String customerLastName;
 	private String customerEmail;
 	
-	
-	
 	@EqualsAndHashCode.Exclude
 	@ToString.Exclude
 	@ManyToMany(mappedBy = "customers", cascade = CascadeType.PERSIST)

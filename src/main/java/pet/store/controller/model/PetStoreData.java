@@ -33,8 +33,6 @@ public class PetStoreData {
 		petStoreZip = petStore.getPetStoreZip();
 		petStorePhone = petStore.getPetStorePhone();
 		
-		
-		
 		for(Customer customer : petStore.getCustomers()) {
 			customers.add(new PetStoreCustomer(customer));
 		}
@@ -60,7 +58,6 @@ public class PetStoreData {
 			customerFirstName = customer.getCustomerFirstName();
 			customerLastName = customer.getCustomerLastName();
 			customerEmail = customer.getCustomerEmail();
-			
 		}
 	}
 	
@@ -81,5 +78,5 @@ public class PetStoreData {
 			employeePhone = employee.getEmployeePhone();
 			employeeJobTitle = employee.getEmployeeJobTitle();
 		}
-	} //left off on create pet store #6, server not working
+	} 
 }
