@@ -51,7 +51,7 @@ PetStoreApp is a Java-based backend application that manages pet store locations
 
 1. Clone the repository  
 
-     - git clone https://github.com/yourusername/PetStoreApp.git
+     - git clone https://github.com/sflugum/PetStoreApp.git
      - cd PetStoreApp
 
 2. Build and run the app
