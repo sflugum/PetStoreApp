@@ -54,10 +54,10 @@ public class PetStoreData {
 		private String customerEmail;
 		
 		public PetStoreCustomer(Customer customer) {
-			customerId = customer.getCustomerId();
-			customerFirstName = customer.getCustomerFirstName();
-			customerLastName = customer.getCustomerLastName();
-			customerEmail = customer.getCustomerEmail();
+			this.customerId = customer.getCustomerId();
+			this.customerFirstName = customer.getCustomerFirstName();
+			this.customerLastName = customer.getCustomerLastName();
+			this.customerEmail = customer.getCustomerEmail();
 		}
 	}
 	
@@ -72,11 +72,11 @@ public class PetStoreData {
 		private String employeeJobTitle;
 		
 		public PetStoreEmployee(Employee employee) {
-			employeeId = employee.getEmployeeId();
-			employeeFirstName = employee.getEmployeeFirstName();
-			employeeLastName = employee.getEmployeeLastName();
-			employeePhone = employee.getEmployeePhone();
-			employeeJobTitle = employee.getEmployeeJobTitle();
+			this.employeeId = employee.getEmployeeId();
+			this.employeeFirstName = employee.getEmployeeFirstName();
+			this.employeeLastName = employee.getEmployeeLastName();
+			this.employeePhone = employee.getEmployeePhone();
+			this.employeeJobTitle = employee.getEmployeeJobTitle();
 		}
 	} 
 }
